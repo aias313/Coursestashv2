@@ -11,8 +11,8 @@ app = Flask(__name__)
 
 #app config.. move to exeernatl config
 
-app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://courseadmin:monkey1019@coursestash.coebdsda39o3.us-west-2.rds.amazonaws.com:3306/coursestash'
-app.config['SECRET_KEY'] = "mysecret"
+app.config['SQLALCHEMY_DATABASE_URI'] = '
+app.config['SECRET_KEY'] = "
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 app.config['ADMIN_CREDENTIALS'] = ('admin', 'pa$$word')
 #database setup
